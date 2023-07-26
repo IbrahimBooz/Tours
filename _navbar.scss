@@ -1,0 +1,28 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--text-color);
+    
+    &-menu-btn {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+        width: 35px;
+        display: none;
+    }
+    &-links {
+        display: flex;
+        gap: 30px;
+        font-size: 24px;
+        align-items: center;
+        a {
+            color: var(--text-color);
+        }  
+    }
+}

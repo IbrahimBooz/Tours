@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import "_header";
+@import "navbar";
+@import "events";
+@import "tours";
+@import "contents";
+@import "footer";
+@import "media";
+
+:root {
+    --secondary-color: #484872;
+    --thirdy-color: #49497e;
+    --text-color: whitesmoke;
+    --primary-color: #fc036b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.btn {
+
+    background-color: var(--primary-color);
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: var(--text-color);
+
+    &:hover {
+        background-color: var(--text-color);
+        color: var(--primary-color);
+    }
+}
+
+.line {
+    height: 4px;
+    width: 300px;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+}
+
+
+
+.events-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.active {
+    color: var(--primary-color) !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
