@@ -1,0 +1,39 @@
+.events {
+    margin-top: 30px;
+    &-title {
+        text-align: center;
+        h1 {
+            color: var(--thirdy-color);
+            font-size: 6vmin;
+        }
+    }
+    &-row {
+        display: flex;
+        margin-top: 3vh;
+        &-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            img {
+                width: 35vw;
+                border-radius: 15px;
+                &:hover {
+                    transform: scale(1.05);
+                    transition: .3s ease-in-out;
+                }
+            }
+            p {
+                font-size: 3vmin;
+                width: 70%;
+                text-align: center;
+                color: #727272;
+                
+            }
+            h1 {
+                font-size: 6vmin;
+                color: var(--thirdy-color);
+            }
+        }
+    }
+}

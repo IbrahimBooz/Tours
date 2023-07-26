@@ -1,0 +1,41 @@
+.contents {
+    &-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0;
+        &-col {
+            width: 30%;
+            text-align: start;
+            gap: 30px;
+            h1 {
+                font-size: 8vmin;
+                color: var(--thirdy-color);
+            }
+            .line {
+                margin-left: 0;
+                height: 6px;
+                width: 200px;
+            }
+            p {
+                width: 100%;
+                color: #727272;
+                font-weight: 400;
+                font-size: 2vmin;
+                margin: 30px 0;
+            }
+        }
+        &-col-1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            img {
+                &:hover {
+                    transition: 0.3s ease-in-out;
+                    transform: scale(1.05);
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

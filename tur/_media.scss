@@ -1,0 +1,105 @@
+@media screen and (max-width:998px) {
+    .navbar {
+
+        &-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        &-links {
+            margin-left: -20px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 10px;
+            height: 100vh;
+            padding-top: 150px;
+            padding-right: 20px;
+            margin-top: -1100px;
+            width: 100%;
+            background-color: var(--thirdy-color);
+            border-bottom-right-radius: 190px;
+            transition: .3s ease-in-out;
+      
+            &-menu {
+                margin-top: -12px;
+
+            }
+        }
+
+        &-menu-btn {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .header {
+        &-content {
+            margin-bottom: 350px;
+        }
+        .line {
+            width: 170px;
+        }
+    }
+    .events {
+        &-row {
+            flex-direction: column;
+            gap: 20px;
+            &-col {
+                img {
+                    width: 90%;
+                }
+                p {
+                    font-size: 18px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    .tours {
+        &-content {
+            display: flex;
+            align-items: flex-start;
+            width: 90%;
+            p{
+                width: 100%;
+            }
+        }
+        .line {
+            width: 170px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+
+    .contents {
+        &-row {
+            flex-direction: column;
+            &-col {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+                p {
+                    font-size: 18px;
+                    width: 90%;
+                    margin: 15px auto;
+    
+                }
+            }
+            &-col-1 {
+                display: flex;
+                flex-direction: column;
+            }
+            .line {
+                margin: 15px auto;
+            }
+          
+        }
+    }
+
+    .footer {
+        img {
+            display: none;
+        }
+    }
+}
