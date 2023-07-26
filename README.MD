@@ -1,10 +1,10 @@
 # Site oluşturulurken kullanılan teknolojiler 
 
 <ul>
-<li> Html5 </li>
-<li> Scss </li>
-<li> Css3 </li>
-<li> JavaScript </li>
+<li> HTML5 </li>
+<li> SCSS </li>
+<li> CSS3 </li>
+<li> JAVASCRİPT </li>
 </ul>
 
 # Siteyi ziyaret etmek için:
