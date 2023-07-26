@@ -13,7 +13,7 @@ https://toursib.netlify.app/
 
 # Gif:
 
-! [] (Tour.gif)
+![](/Tour.gif)
 
 
 
